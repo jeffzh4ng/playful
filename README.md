@@ -16,10 +16,10 @@ The table lays out directories and their purposes:
 | src/allocator.rs     | Heap                                                                                                           |
 | src/gdt.rs           | Global descriptor table, used to switch between kernel/user space and load TSS                                 |
 | src/interrupts.rs    | Interrupt descriptor table with handlers for CPU exceptions and hardware faults                                |
-| lox/main.rs          | Playful's main runner                                                                                          |
+| src/main.rs          | Playful's main runner                                                                                          |
 | src/memory.rs        | Structures and methods to manage memory and page allocation                                                    |
-| lox/serial.rs        | QEMU-to-host bridge via serial ports                                                                           |
-| lox/vga_buffer.rs    | Driver for VGA text mode                                                                                       |
+| src/serial.rs        | QEMU-to-host bridge via serial ports                                                                           |
+| src/vga_buffer.rs    | Driver for VGA text mode                                                                                       |
 
 
 ## Resources
